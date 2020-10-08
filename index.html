@@ -2,247 +2,290 @@
 <html lang="eng">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" hgref="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Peridona</title>
     </head>
     <body>
         <header class="header">
-            <div class="container">
-                <div class="logo">
-                    <img src="img/Peridona copy.png"> 
-                </div>
-                <div class="navigation">
-                    <ul>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">ABOUT US</a></li>
-                        <li><a href="">SERVICES</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">TEAM</a></li>
-                        <li><a href="">CONTACT</a></li>
-                    </ul>
-                </div>
-                <div class="infbar">
-                    <ul>
-                        <li>
-                            <img src="img/iconwatch.png"> Mon - Fri: 10am - 5pm
-                        </li>
-                        <li>
-                            <img src="img/iconpost.png"> info@example.com
-                        </li>
-                        <li>
-                            <img src="img/iconphone.png"> (555) 5678 12340
-                        </li>
-                    </ul>
-                </div>
-            </div>
+			<div class="logo">
+				<img class="peridonalogo" src="img/peridonalogo.png" width="116" height="26" alt="Peridona logo"> 
+			</div>
+			<nav  class="header-navigation">
+				<a href="#">BLOG</a>
+				<a href="#">ABOUT US</a>
+				<a href="#">SERVICES</a>
+				<a href="#">BLOG</a>
+				<a href="#">TEAM</a>
+				<a href="#">CONTACT</a>
+			</nav>
+			<div class="infbar">
+				<ul class="infbar-list">
+					<li><p>Mon - Fri: 10am - 5pm</p></li>
+					<li><a href="mailto:info@example.com" class="mail-link">info@example.com</a></li>
+					<li><a href="telto:555567812340" class="tel-link">(555) 5678 12340</a></li>
+				</ul>
+			</div>
         </header>
-        <div class="intro">
-            <div class="container">
-                <div class="main">
-                    <img src="img/skyscreaper.png">
-                    <h1>We are Providing Be Business Service</h1>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</h4>                                      
-                    <button>Our Srvices</button>
-                    <button>Contact Us</button>
-               </div>
-               <div class="sponsors">
-                   <ul>
-                       <li><img src="img/alisa.png"></li>
-                       <li><img src="img/natural.png"></li>
-                       <li><img src="img/microwave.png"></li>
-                       <li><img src="img/urban.png"></li>
-                   </ul>
-               </div>
-            </div>
-        </div>
-        <div class="how">
-            <div class="container">
-                <h2>How do we work ...</h2>
+		<main>
+			<section class="intro">		
+			
+				<div class="skyscreaper">
+					<img src="img/skyscreaper.png" width="558" height="884" alt="Main office">
+				</div>
+				<div class="main">
+					<h1>We are Providing Be Business Service</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>                                      
+					<div class="main-buttons">
+						<a class="our-services-button" href="#">Our Srvices</a>
+						<a class="contact-us-button" href="#">Contact Us</a>
+					</div>
+			   </div>
+			   <ul class="sponsors">
+				   <li><a href="#"><img src="img/alisa.png" width="87" height="42" alt="Sponsor alisa"></a></li>
+				   <li><a href="#"><img src="img/natural.png" width="106" height="29" alt="Sponsor natural"></a></li>
+				   <li><a href="#"><img src="img/microwave.png" width="141" height="22" alt="Sponsor microwave"></a></li>
+				   <li><a href="#"><img src="img/urban.png" width="96" height="26" alt="Sponsor urban"></a></li>
+			   </ul>
+			</section>
+			<section class="about-and-contact">
+				<div class="about">
+					<h2 class="about-header">We are Unique & different</h2>
+					<h3 class="about-subtitle">About our Business</h3>
+					<p>Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+					<table class="about-table">
+						<tr class="about-table-numbers">
+							<td><p>23000</p></td>
+							<td><p>10333</p></td>
+							<td><p>105</p></td>						
+						</tr>
+						<tr class="about-table-headers">
+							<td><p>Proects</p></td>
+							<td><p>Reviews</p></td>
+							<td><p>Award</p></td>						
+						</tr>
+					</table>
+				</div>
+				<div class="getintuch">
+					<h2 class="getintuch-header">Get it tuch</h2>
+					<form action="#" method="post" name="get-in-tuch">
+						<input type="text" name="input-name" required placeholder="Enter your name">
+						<input type="email" name="input-email" required placeholder="Enter your email">
+						<textarea laceholder="Message" name="input-message"></textarea>	
+						<button type="submit">Send</button>						
+					</form>
+				</div>
+			</section>
+			<section class="how">
+				<div class="how-description">
+					<h2 class="how-header">How do we work ...</h2>
+					<ul class="how-description-list">
+						<li>
+							<h3>All Necessary Data Collection</h3>
+							<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+						</li>
+						<li>
+							<h3>Analysis Data</h3>
+							<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+						</li>
+						<li>
+							<h3>Report the best Solution</h3>
+							<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="how-viedo">
+					<img src="img/video.png" width="960" height="569" alt="Video image">
+				</div>
+			</section>
+			<section class="about-our-services">
+			   <div class="about-our-services-description">
+					<h2 class="about-our-services-header">About Our Service</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+				</div>
+				<div class="service-list">
+					<a href="#" class="service-item-link">
+						<div class="service-item">
+							<h3 class="service-item-header">Finacial Consulting</h3>
+							<p>Sed do eismod tempor incididunut ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+						</div>
+					</a>
+					<a href="#" class="service-item-link">
+						<div class="service-item">			
+							<h3 class="service-item-header">Audit & Assuranc</h3>
+							<p>Sed do eismod tempor incididunut ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+						</div>
+					</a>
+					<a href="#" class="service-item-link">					
+						<div class="service-item">				
+							<h3 class="service-item-header">Business Services</h3>
+							<p>Sed do eismod tempor incididunut ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+						</div>	
+					</a>	
+					<a href="#" class="service-item-link">					
+						<div class="service-item">				
+							<h3 class="service-item-header">Training and Couching</h3>
+							<p>Sed do eismod tempor incididunut ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+						</div>	
+					</a>
+					<a href="#" class="service-item-link">				
+						<div class="service-item">				
+							<h3 class="service-item-header">Investment Planing</h3>
+							<p>Sed do eismod tempor incididunut ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+						</div>
+					</a>	
+					<a href="#" class="service-item-link">						
+						<div class="service-item">			
+							<h3 class="service-item-header">Marketing Analysis</h3>
+							<p>Sed do eismod tempor incididunut ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+						</div>	
+					</a>				
+				</div>		
+			</section>
+			<section class="pros">
+				<table class="table-pros">
+				  <tr class="table-pros-numbers">
+					<td><p>1230</p></td>
+					<td><p>961</p></td>
+					<td><p>1322</p></td>
+					<td><p>9650</p></td>
+				  </tr>
+				  <tr class="table-pros-headers">
+					<td><p>Project Completed</p></td>
+					<td><p>Happy Clients</p></td>	
+					<td><p>3D Modeling</p></td>
+					<td><p>Cup of Team</p></td>				
+				  </tr>
+				  <tr class="table-pros-descriptions">
+					<td><p>Lorem ipsum dolor sit amet, consecretur adipiscing elit, sed do</p></td>
+					<td><p>Lorem ipsum dolor sit amet, consecretur adipiscing elit, sed do</p></td>
+					<td><p>Lorem ipsum dolor sit amet, consecretur adipiscing elit, sed do</p></td>
+					<td><p>Lorem ipsum dolor sit amet, consecretur adipiscing elit, sed do</p></td>
+				  </tr>
+				</table>				             
+			</section>
+			<section class="ourteam">
+				<div class="ourteam-description">
+					<h2 class="team-header">Our great team</h2>
+					<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+					<a class="button-learn-more" href="#">Learn More</a>
+				</div>
+				<ul class="persons-card">
+					<li>
+						<img src="img/john.png" width="237" height="371" alt="John Grogaries">
+						<div>
+							<h3>John Grogaries</h3>
+							<p>Business Professional</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/adam.png" width="237" height="371" alt="Adam Herison Pole">
+						<div>
+							<h3>Adam Herison Pole</h3>
+							<p>Business Consultent</p>
+						</div>
+					</li>
+					<li>
+						<img src="img/mani.png" width="237" height="371" alt="Mani Bomikola">
+						<div>
+							<h3>Mani Bomikola</h3>
+							<p>Resear Analist</p>
+						</div>
+					</li>
+				</ul>			
+			</section>
+			<section class="latestnews">
+				<div class="latestnews-description">
+					<h2 class="latestnews-header">Latest News</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+				</div>
+				<div class="latestnews-list">
+					<div class="latestnews-card">
+						<img src="img/latestnews1.png" width="370" height="207" alt="latestnews1">
+						<h3><a href="#">Enim ad minim ven magna</a></h3>
+						<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>	
+					</div>
+					<div class="latestnews-card"> 
+						<img src="img/latestnews2.png" width="370" height="207" alt="latestnews2">
+						<h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+						<p>Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis Excepteur sint occaecat cupidatat non proident, sunt in culpa ...</p>				
+					</div>
+					<div class="latestnews-card"> 		
+						<img src="img/latestnews3.png" width="370" height="207" alt="latestnews3">
+						<h3><a href="#">Dolore magna aliqua enim<a></h3>
+						<p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>				
+					</div>
+				</div>
+				<a class="button-learn-more" href="">Learn More</a>
+			</section>
+			<section class="ourhappymoments">
+				<div class="ourhappymoments-description">
+					<h2 class="our-happy-moments-header">Our Happy Moments</h2>
+					<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a class="button-learn-more" href="">Learn More</a>
+				</div>
+				<ul class="ourhappymoments-bar">
+					<li><a href="#">All</a></li>
+					<li><a href="#">Business Plan</a></li>
+					<li><a href="#">Business Development</a></li>
+					<li><a href="#">Marketing</a></li>
+					<li><a href="#">Development</a></li>
+				</ul>
+				<ul class="ourhappymoments-cards">
+					<li><a href="#"><img src="img/aurhappymoments1.png" width="370" height="230" alt="aurhappymoments1"></a></li>
+					<li><a href="#"><img src="img/aurhappymoments2.png" width="370" height="230" alt="aurhappymoments2"></a></li>
+					<li><a href="#"><img src="img/aurhappymoments3.png" width="370" height="230" alt="aurhappymoments3"></a></li>
+					<li><a href="#"><img src="img/aurhappymoments4.png" width="370" height="230" alt="aurhappymoments4"></a></li>
+					<li><a href="#"><img src="img/aurhappymoments5.png" width="370" height="230" alt="aurhappymoments5"></a></li>
+					<li><a href="#"><img src="img/aurhappymoments6.png" width="370" height="230" alt="aurhappymoments6"></a></li>
+				</ul>
+			</section>
+			<section class="map">
+				<img src="img/map.png" width="1919" height="405" alt="City Hrodno, st. Limozha 123, ap. 23">
+			</section>
+		</main>	
+        <footer class="footer">
+            <div class="peridona">
+                <h3>Peridona</h3>
+                <p>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <ul>
-                    <li>
-                        <img src="img/data.png">
-                        <h3>All Necessary Data Collection</h3>
-                        <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</h4>
-                    </li>
-                    <li>
-                        <img src="img/analysis.png">
-                        <h3>Analysis Data</h3>
-                        <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</h4>
-                    </li>
-                    <li>
-                        <img src="img/stonks.png">
-                        <h3>Report the best Solution</h3>
-                        <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</h4>
-                    </li>
+                    <li><a href="#"><img src="img/facebooklogo.png" width="6" height="12" alt="facebooklogo"></a></li>
+                    <li><a href="#"><img src="img/twitterlogo.png" width="15" height="12" alt="twitterlogo"></a></li>
+                    <li><a href="#"><img src="img/instagramlogo.png" width="12" height="12" alt="instagramlogo"></a></li>
+                    <li><a href="#"><img src="img/skypelogo.png" width="12" height="12" alt="skypelogo"></a></li>
+                    <li><a href="#"><img src="img/plogo.png" width="9" height="12" alt="plogo"></a></li>
                 </ul>
-                <img src="img/video.png">
             </div>
-        </div>
-        <div class="about">
-            <div class="container">
-                <h2>About Our Service</h2>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</h4>
+            <div class="resources">
+                <h3>Resources</h3>
+				<ul>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Help Center</a></li>
+					<li><a href="#">Community</a></li>
+					<li><a href="#">Marketplace</a></li>
+					<li><a href="#">Career</a></li>
+				</ul>
+            </div>
+            <div class="links">
+                <h3>Links</h3>
                 <ul>
-                    <li>
-                       <img src="img/planet.png"> 
-                       <h3>Financial Consulting</h3>
-                       <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</h4>
-                    </li>
-                    <li>
-                        <img src="img/stonks2.png"> 
-                        <h3>Audit & Assurance</h3>
-                        <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</h4>
-                     </li>
-                     <li>
-                        <img src="img/business.png"> 
-                        <h3>Business Services</h3>
-                        <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</h4>
-                     </li>
-                     <li>
-                        <img src="img/training.png"> 
-                        <h3>Training and Couching</h3>
-                        <h4>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h4>
-                     </li>
-                     <li>
-                        <img src="img/money.png "> 
-                        <h3>Investment Planning</h3>
-                        <h4>Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</h4>
-                     </li>
-                     <li>
-                        <img src="img/analysys2.png "> 
-                        <h3>Marketing Analysis</h3>
-                        <h4>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</h4>
-                     </li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Live Chat</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="pros">
-            <div class="container">
-                <div class="projectcompleted">
-                    <h2>1230</h2>
-                    <h3>Project Completed</h3>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
-                </div>
-                <div class="happyclients">
-                    <h2>961</h2>
-                    <h3>Happy Clients</h3>
-                    <h4>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-                </div>
-                <div class="3dmodeling">
-                    <h2>1322</h2>
-                    <h3>3D Modeling</h3>
-                    <h4>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</h4>
-                </div>
-                <div class="cupoftea">
-                    <h2>9650</h2>
-                    <h3>Cup of Tea</h3>
-                    <h4>Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-                </div>
+            <div class="subscription">
+                <h3>Subscription</h3>
+                <p>Subcribe us to get latest update</p>
+				<form action="#" method="post" name="subscribe-email">
+					<input type="email" required placeholder="Email">
+					<button type="submit">Subscribe</button>
+				</form>
             </div>
-        </div>
-        <div class="ourteam">
-            <div class="container">
-                <h2>Our great team</h2>
-                <h4>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</h4>
-                <button>Learn More</button>
-                <ul>
-                    <li><img src="img/john.png"></li>
-                    <li><img src="img/adam.png"></li>
-                    <li><img src="img/mani.png"></li>
-                </ul>
-            </div>
-        </div>
-        <div class="latestnews">
-            <div class="container">
-                <h2>Latest News</h1>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </h3>
-            </div>
-            <ul>
-                <li>
-                    <img src="img/latestnews1.png">
-                    <h3>Enim ad minim ven magna</h3>
-                    <h4>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
-                </li>
-                <li>
-                    <img src="img/latestnews2.png">
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                    <h4>Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis Excepteur sint occaecat cupidatat non proident, sunt in culpa ...</h4>
-                </li>
-                <li>
-                    <img src="img/latestnews3.png">
-                    <h3>Dolore magna aliqua enim</h3>
-                    <h4>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
-                </li>
-            </ul>
-            <button>Learn More</button>
-        </div>
-        <div class="ourhappymoments">
-            <div class="container">
-                <h2>Our Happy Moments</h2>
-                <h4>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-                <button>Learn More</button>
-                <ul>
-                    <li><a href="">All</a></li>
-                    <li><a href="">Business Plan</a></li>
-                    <li><a href="">Business Development</a></li>
-                    <li><a href="">Marketing</a></li>
-                    <li><a href="">Development</a></li>
-                </ul>
-                <ul>
-                    <li><img src="img/aurhappymoments1.png"></li>
-                    <li><img src="img/aurhappymoments2.png"></li>
-                    <li><img src="img/aurhappymoments3.png"></li>
-                    <li><img src="img/aurhappymoments4.png"></li>
-                    <li><img src="img/aurhappymoments5.png"></li>
-                    <li><img src="img/aurhappymoments6.png"></li>
-                </ul>
-            </div>
-        </div>
-        <div class="map">
-            <div class="container">
-                <img src="img/map.png">
-            </div>
-        </div>
-        <footer>
-            <div class="container">
-                <div class="peridona">
-                    <h3>Peridona</h3>
-                    <h4>Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h4>
-                    <ul>
-                        <li><img src="img/facebooklogo.png"></li>
-                        <li><img src="img/twitterlogo.png"></li>
-                        <li><img src="img/instagramlogo.png"></li>
-                        <li><img src="img/skypelogo.png"></li>
-                         <li><img src="img/plogo.png"></li>
-                    </ul>
-                </div>
-                <div class="resources">
-                    <h3>Resources</h3>
-                    <ul>
-                        <li><h4>Blog</h4></li>
-                        <li><h4>Help Center</h4></li>
-                        <li><h4>Community</h4></li>
-                        <li><h4>Marketplace</h4></li>
-                        <li><h4>Career</h4></li>
-                    </ul>
-                </div>
-                <div class="links">
-                    <h3>Links</h3>
-                    <ul>
-                        <li><h4>Pricing</h4></li>
-                        <li><h4>Contact</h4></li>
-                        <li><h4>Forum</h4></li>
-                        <li><h4>Live Chat</h4></li>
-                    </ul>
-                </div>
-                <div class="subscription">
-                    <h3>Subscription</h3>
-                    <h4>Subcribe us to get latest update</h4>
-                    <input type="email">
-                    <button>Subscribe</button>
-                </div>
-            </div>
-            <h4>Copyright 2019 - Peridona | All rights Reserved</h4>
+			<div class="copyright">
+				<p>Copyright 2019 - Peridona | All rights Reserved</p>
+			</div>
         </footer>
     </body>
-</html> 
+</html>
